@@ -1,0 +1,262 @@
+{
+  "Phone": [
+    {
+      "id": 1,
+      "title": "iPhone 14 Pro",
+      "description": "Apple iPhone 14 Pro with A16 Bionic chip and 128GB storage.",
+      "price": 119999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/iphone14pro.jpg"],
+      "tags": ["apple", "smartphone", "ios"]
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy S23",
+      "description": "Samsung flagship phone with Snapdragon 8 Gen 2 and 256GB storage.",
+      "price": 79999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/s23.jpg"],
+      "tags": ["android", "samsung", "flagship"]
+    },
+    {
+      "id": 3,
+      "title": "OnePlus 11R",
+      "description": "Powerful OnePlus device with 16GB RAM and 256GB storage.",
+      "price": 39999,
+      "currency": "INR",
+      "in_stock": false,
+      "images": ["https://example.com/images/oneplus11r.jpg"],
+      "tags": ["android", "performance", "oneplus"]
+    },
+    {
+      "id": 4,
+      "title": "Google Pixel 8",
+      "description": "Pixel 8 with Android 14 and exceptional camera quality.",
+      "price": 64999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/pixel8.jpg"],
+      "tags": ["google", "camera", "android"]
+    },
+    {
+      "id": 5,
+      "title": "Realme Narzo 60 Pro",
+      "description": "Affordable phone with 100MP camera and 12GB RAM.",
+      "price": 23999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/narzo60pro.jpg"],
+      "tags": ["realme", "budget", "camera"]
+    }
+  ],
+  "Laptop": [
+    {
+      "id": 6,
+      "title": "MacBook Air M2",
+      "description": "Apple MacBook Air with M2 chip, 8GB RAM, 256GB SSD.",
+      "price": 109999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/macbookairm2.jpg"],
+      "tags": ["apple", "macos", "ultrabook"]
+    },
+    {
+      "id": 7,
+      "title": "Dell XPS 13",
+      "description": "Ultra-portable Windows laptop with Intel i7 and 16GB RAM.",
+      "price": 99999,
+      "currency": "INR",
+      "in_stock": false,
+      "images": ["https://example.com/images/xps13.jpg"],
+      "tags": ["dell", "windows", "premium"]
+    },
+    {
+      "id": 8,
+      "title": "HP Pavilion 15",
+      "description": "Everyday laptop with Ryzen 5 processor and 512GB SSD.",
+      "price": 58999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/pavilion15.jpg"],
+      "tags": ["hp", "budget", "windows"]
+    },
+    {
+      "id": 9,
+      "title": "Lenovo Legion 5",
+      "description": "Gaming laptop with RTX 4060 and AMD Ryzen 7.",
+      "price": 99999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/legion5.jpg"],
+      "tags": ["lenovo", "gaming", "performance"]
+    },
+    {
+      "id": 10,
+      "title": "Asus ROG Zephyrus G14",
+      "description": "Portable gaming laptop with Ryzen 9 and QHD display.",
+      "price": 124999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/g14.jpg"],
+      "tags": ["asus", "rog", "gaming"]
+    }
+  ],
+  "Speakers": [
+    {
+      "id": 11,
+      "title": "JBL Flip 6",
+      "description": "Portable Bluetooth speaker with 12 hours of playtime.",
+      "price": 9999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/jblflip6.jpg"],
+      "tags": ["bluetooth", "portable", "jbl"]
+    },
+    {
+      "id": 12,
+      "title": "Sony SRS-XG300",
+      "description": "High-performance party speaker with LED lights.",
+      "price": 19999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/sonyxg300.jpg"],
+      "tags": ["sony", "party", "bass"]
+    },
+    {
+      "id": 13,
+      "title": "Bose SoundLink Revolve II",
+      "description": "360° sound Bluetooth speaker from Bose.",
+      "price": 17999,
+      "currency": "INR",
+      "in_stock": false,
+      "images": ["https://example.com/images/boserevolve.jpg"],
+      "tags": ["bose", "premium", "360sound"]
+    },
+    {
+      "id": 14,
+      "title": "boAt Stone 1200F",
+      "description": "Affordable and powerful speaker with RGB lights.",
+      "price": 4499,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/boatstone1200.jpg"],
+      "tags": ["boat", "budget", "bass"]
+    },
+    {
+      "id": 15,
+      "title": "Marshall Emberton II",
+      "description": "Iconic design with rich audio and IP67 rating.",
+      "price": 14999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/marshallemberton.jpg"],
+      "tags": ["marshall", "vintage", "portable"]
+    }
+  ],
+  "Toys": [
+    {
+      "id": 16,
+      "title": "LEGO City Police Station",
+      "description": "Building toy with over 600 pieces and mini-figures.",
+      "price": 4999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/legocity.jpg"],
+      "tags": ["lego", "building", "kids"]
+    },
+    {
+      "id": 17,
+      "title": "Remote Control Car",
+      "description": "High-speed RC car with rechargeable battery.",
+      "price": 2499,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/rccar.jpg"],
+      "tags": ["remote", "car", "fun"]
+    },
+    {
+      "id": 18,
+      "title": "Barbie Dreamhouse",
+      "description": "Barbie dollhouse with furniture and accessories.",
+      "price": 7999,
+      "currency": "INR",
+      "in_stock": false,
+      "images": ["https://example.com/images/barbiedreamhouse.jpg"],
+      "tags": ["barbie", "dolls", "playhouse"]
+    },
+    {
+      "id": 19,
+      "title": "Hot Wheels Track Set",
+      "description": "Hot Wheels racing track with launcher.",
+      "price": 1899,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/hotwheels.jpg"],
+      "tags": ["cars", "tracks", "racing"]
+    },
+    {
+      "id": 20,
+      "title": "Stuffed Teddy Bear",
+      "description": "Soft and cuddly teddy bear, 3 feet tall.",
+      "price": 999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/teddybear.jpg"],
+      "tags": ["plush", "teddy", "gift"]
+    }
+  ],
+  "Playstations": [
+    {
+      "id": 21,
+      "title": "PlayStation 5 Console",
+      "description": "Sony PS5 Disc Edition with DualSense controller.",
+      "price": 54999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/ps5.jpg"],
+      "tags": ["sony", "console", "nextgen"]
+    },
+    {
+      "id": 22,
+      "title": "PS5 DualSense Controller",
+      "description": "Wireless controller with haptic feedback and adaptive triggers.",
+      "price": 5999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/dualsense.jpg"],
+      "tags": ["accessory", "controller", "ps5"]
+    },
+    {
+      "id": 23,
+      "title": "Spider-Man 2 Game",
+      "description": "Marvel's Spider-Man 2 for PS5 with action-packed gameplay.",
+      "price": 4999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/spiderman2.jpg"],
+      "tags": ["game", "spiderman", "ps5"]
+    },
+    {
+      "id": 24,
+      "title": "PS5 Charging Station",
+      "description": "Charge two DualSense controllers simultaneously.",
+      "price": 2999,
+      "currency": "INR",
+      "in_stock": false,
+      "images": ["https://example.com/images/chargingstation.jpg"],
+      "tags": ["charger", "dual", "ps5"]
+    },
+    {
+      "id": 25,
+      "title": "PS5 Camera",
+      "description": "HD camera for streaming and facial recognition.",
+      "price": 4599,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/ps5camera.jpg"],
+      "tags": ["camera", "stream", "accessory"]
+    }
+  ]
+}
