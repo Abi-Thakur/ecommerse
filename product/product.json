@@ -7,7 +7,7 @@
       "price": 119999,
       "currency": "INR",
       "in_stock": true,
-      "images": ["https://example.com/images/iphone14pro.jpg"],
+      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvFiMXvAkzgGdVe2hpWTqlm8LND86SqAXdA&s"],
       "tags": ["apple", "smartphone", "ios"]
     },
     {
@@ -49,214 +49,264 @@
       "in_stock": true,
       "images": ["https://example.com/images/narzo60pro.jpg"],
       "tags": ["realme", "budget", "camera"]
+    },
+    {
+      "id": 26,
+      "title": "iQOO Neo 7",
+      "description": "Gaming phone with Dimensity 8200 and 120Hz AMOLED.",
+      "price": 29999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/iqooneo7.jpg"],
+      "tags": ["iqoo", "gaming", "android"]
+    },
+    {
+      "id": 27,
+      "title": "Moto Edge 40",
+      "description": "Curved display and powerful Dimensity 8020 processor.",
+      "price": 28999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/motoedge40.jpg"],
+      "tags": ["motorola", "android", "midrange"]
+    },
+    {
+      "id": 28,
+      "title": "Nothing Phone (2)",
+      "description": "Unique design with Glyph interface and SD 8+ Gen 1.",
+      "price": 44999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/nothing2.jpg"],
+      "tags": ["nothing", "design", "android"]
+    },
+    {
+      "id": 29,
+      "title": "Vivo V27 Pro",
+      "description": "Stylish camera phone with color-changing glass back.",
+      "price": 37999,
+      "currency": "INR",
+      "in_stock": false,
+      "images": ["https://example.com/images/vivov27.jpg"],
+      "tags": ["vivo", "camera", "android"]
+    },
+    {
+      "id": 30,
+      "title": "Redmi Note 13 Pro+",
+      "description": "Affordable flagship with curved AMOLED and 200MP camera.",
+      "price": 31999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/redminote13.jpg"],
+      "tags": ["xiaomi", "budget", "camera"]
     }
   ],
   "Laptop": [
     {
-      "id": 6,
-      "title": "MacBook Air M2",
-      "description": "Apple MacBook Air with M2 chip, 8GB RAM, 256GB SSD.",
-      "price": 109999,
+      "id": 31,
+      "title": "Acer Aspire 7",
+      "description": "Gaming laptop with GTX 1650 and Ryzen 5.",
+      "price": 54999,
       "currency": "INR",
       "in_stock": true,
-      "images": ["https://example.com/images/macbookairm2.jpg"],
-      "tags": ["apple", "macos", "ultrabook"]
+      "images": ["https://example.com/images/aspire7.jpg"],
+      "tags": ["acer", "gaming", "budget"]
     },
     {
-      "id": 7,
-      "title": "Dell XPS 13",
-      "description": "Ultra-portable Windows laptop with Intel i7 and 16GB RAM.",
-      "price": 99999,
+      "id": 32,
+      "title": "Microsoft Surface Laptop 5",
+      "description": "Lightweight premium laptop with Intel Evo.",
+      "price": 129999,
       "currency": "INR",
       "in_stock": false,
-      "images": ["https://example.com/images/xps13.jpg"],
-      "tags": ["dell", "windows", "premium"]
+      "images": ["https://example.com/images/surface5.jpg"],
+      "tags": ["microsoft", "windows", "ultrabook"]
     },
     {
-      "id": 8,
-      "title": "HP Pavilion 15",
-      "description": "Everyday laptop with Ryzen 5 processor and 512GB SSD.",
-      "price": 58999,
+      "id": 33,
+      "title": "Asus Vivobook 16X",
+      "description": "Mid-range productivity laptop with Ryzen 7.",
+      "price": 62999,
       "currency": "INR",
       "in_stock": true,
-      "images": ["https://example.com/images/pavilion15.jpg"],
-      "tags": ["hp", "budget", "windows"]
+      "images": ["https://example.com/images/vivobook16x.jpg"],
+      "tags": ["asus", "work", "budget"]
     },
     {
-      "id": 9,
-      "title": "Lenovo Legion 5",
-      "description": "Gaming laptop with RTX 4060 and AMD Ryzen 7.",
-      "price": 99999,
+      "id": 34,
+      "title": "HP Omen 16",
+      "description": "High-end gaming laptop with RTX 4070.",
+      "price": 159999,
       "currency": "INR",
       "in_stock": true,
-      "images": ["https://example.com/images/legion5.jpg"],
-      "tags": ["lenovo", "gaming", "performance"]
+      "images": ["https://example.com/images/omen16.jpg"],
+      "tags": ["hp", "gaming", "premium"]
     },
     {
-      "id": 10,
-      "title": "Asus ROG Zephyrus G14",
-      "description": "Portable gaming laptop with Ryzen 9 and QHD display.",
-      "price": 124999,
+      "id": 35,
+      "title": "Lenovo Yoga Slim 7",
+      "description": "Slim and powerful ultrabook with OLED display.",
+      "price": 94999,
       "currency": "INR",
-      "in_stock": true,
-      "images": ["https://example.com/images/g14.jpg"],
-      "tags": ["asus", "rog", "gaming"]
+      "in_stock": false,
+      "images": ["https://example.com/images/yogaslim7.jpg"],
+      "tags": ["lenovo", "ultrabook", "oled"]
     }
   ],
   "Speakers": [
     {
-      "id": 11,
-      "title": "JBL Flip 6",
-      "description": "Portable Bluetooth speaker with 12 hours of playtime.",
-      "price": 9999,
+      "id": 36,
+      "title": "Zebronics Zeb-Rock",
+      "description": "Budget Bluetooth speaker with powerful sound.",
+      "price": 1799,
       "currency": "INR",
       "in_stock": true,
-      "images": ["https://example.com/images/jblflip6.jpg"],
-      "tags": ["bluetooth", "portable", "jbl"]
+      "images": ["https://example.com/images/zebrock.jpg"],
+      "tags": ["zebronics", "budget", "bluetooth"]
     },
     {
-      "id": 12,
-      "title": "Sony SRS-XG300",
-      "description": "High-performance party speaker with LED lights.",
-      "price": 19999,
+      "id": 37,
+      "title": "Philips TAS7505",
+      "description": "Portable speaker with 20W output and long battery life.",
+      "price": 6999,
       "currency": "INR",
       "in_stock": true,
-      "images": ["https://example.com/images/sonyxg300.jpg"],
-      "tags": ["sony", "party", "bass"]
+      "images": ["https://example.com/images/philips7505.jpg"],
+      "tags": ["philips", "portable", "clear"]
     },
     {
-      "id": 13,
-      "title": "Bose SoundLink Revolve II",
-      "description": "360° sound Bluetooth speaker from Bose.",
-      "price": 17999,
+      "id": 38,
+      "title": "boAt Stone 180",
+      "description": "Compact and rugged portable speaker.",
+      "price": 1499,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/boat180.jpg"],
+      "tags": ["boat", "portable", "rugged"]
+    },
+    {
+      "id": 39,
+      "title": "Infinity Fuze 100",
+      "description": "Compact size with deep bass and dual EQ mode.",
+      "price": 1799,
       "currency": "INR",
       "in_stock": false,
-      "images": ["https://example.com/images/boserevolve.jpg"],
-      "tags": ["bose", "premium", "360sound"]
+      "images": ["https://example.com/images/fuze100.jpg"],
+      "tags": ["infinity", "bass", "compact"]
     },
     {
-      "id": 14,
-      "title": "boAt Stone 1200F",
-      "description": "Affordable and powerful speaker with RGB lights.",
-      "price": 4499,
+      "id": 40,
+      "title": "Sony XB13",
+      "description": "Extra bass mini speaker with IP67 rating.",
+      "price": 3999,
       "currency": "INR",
       "in_stock": true,
-      "images": ["https://example.com/images/boatstone1200.jpg"],
-      "tags": ["boat", "budget", "bass"]
-    },
-    {
-      "id": 15,
-      "title": "Marshall Emberton II",
-      "description": "Iconic design with rich audio and IP67 rating.",
-      "price": 14999,
-      "currency": "INR",
-      "in_stock": true,
-      "images": ["https://example.com/images/marshallemberton.jpg"],
-      "tags": ["marshall", "vintage", "portable"]
+      "images": ["https://example.com/images/sonyx13.jpg"],
+      "tags": ["sony", "mini", "bass"]
     }
   ],
   "Toys": [
     {
-      "id": 16,
-      "title": "LEGO City Police Station",
-      "description": "Building toy with over 600 pieces and mini-figures.",
-      "price": 4999,
+      "id": 41,
+      "title": "Nerf Elite 2.0",
+      "description": "Foam dart blaster with 12-dart capacity.",
+      "price": 2599,
       "currency": "INR",
       "in_stock": true,
-      "images": ["https://example.com/images/legocity.jpg"],
-      "tags": ["lego", "building", "kids"]
+      "images": ["https://example.com/images/nerf.jpg"],
+      "tags": ["nerf", "blaster", "kids"]
     },
     {
-      "id": 17,
-      "title": "Remote Control Car",
-      "description": "High-speed RC car with rechargeable battery.",
-      "price": 2499,
+      "id": 42,
+      "title": "Jenga Classic",
+      "description": "Stacking game for kids and adults.",
+      "price": 1099,
       "currency": "INR",
       "in_stock": true,
-      "images": ["https://example.com/images/rccar.jpg"],
-      "tags": ["remote", "car", "fun"]
+      "images": ["https://example.com/images/jenga.jpg"],
+      "tags": ["boardgame", "fun", "family"]
     },
     {
-      "id": 18,
-      "title": "Barbie Dreamhouse",
-      "description": "Barbie dollhouse with furniture and accessories.",
-      "price": 7999,
-      "currency": "INR",
-      "in_stock": false,
-      "images": ["https://example.com/images/barbiedreamhouse.jpg"],
-      "tags": ["barbie", "dolls", "playhouse"]
-    },
-    {
-      "id": 19,
-      "title": "Hot Wheels Track Set",
-      "description": "Hot Wheels racing track with launcher.",
-      "price": 1899,
+      "id": 43,
+      "title": "UNO Card Game",
+      "description": "Classic UNO card game for family fun.",
+      "price": 299,
       "currency": "INR",
       "in_stock": true,
-      "images": ["https://example.com/images/hotwheels.jpg"],
-      "tags": ["cars", "tracks", "racing"]
+      "images": ["https://example.com/images/uno.jpg"],
+      "tags": ["cards", "family", "game"]
     },
     {
-      "id": 20,
-      "title": "Stuffed Teddy Bear",
-      "description": "Soft and cuddly teddy bear, 3 feet tall.",
-      "price": 999,
+      "id": 44,
+      "title": "Slime Kit",
+      "description": "DIY Slime making kit for kids with tools.",
+      "price": 499,
       "currency": "INR",
       "in_stock": true,
-      "images": ["https://example.com/images/teddybear.jpg"],
-      "tags": ["plush", "teddy", "gift"]
+      "images": ["https://example.com/images/slime.jpg"],
+      "tags": ["slime", "creative", "diy"]
+    },
+    {
+      "id": 45,
+      "title": "Chess Set",
+      "description": "Wooden chess board with polished pieces.",
+      "price": 1299,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/chess.jpg"],
+      "tags": ["chess", "strategy", "classic"]
     }
   ],
   "Playstations": [
     {
-      "id": 21,
-      "title": "PlayStation 5 Console",
-      "description": "Sony PS5 Disc Edition with DualSense controller.",
-      "price": 54999,
+      "id": 46,
+      "title": "PS5 Media Remote",
+      "description": "Control media playback on your PS5 easily.",
+      "price": 2499,
       "currency": "INR",
       "in_stock": true,
-      "images": ["https://example.com/images/ps5.jpg"],
-      "tags": ["sony", "console", "nextgen"]
+      "images": ["https://example.com/images/ps5remote.jpg"],
+      "tags": ["remote", "media", "ps5"]
     },
     {
-      "id": 22,
-      "title": "PS5 DualSense Controller",
-      "description": "Wireless controller with haptic feedback and adaptive triggers.",
-      "price": 5999,
-      "currency": "INR",
-      "in_stock": true,
-      "images": ["https://example.com/images/dualsense.jpg"],
-      "tags": ["accessory", "controller", "ps5"]
-    },
-    {
-      "id": 23,
-      "title": "Spider-Man 2 Game",
-      "description": "Marvel's Spider-Man 2 for PS5 with action-packed gameplay.",
+      "id": 47,
+      "title": "The Last of Us Part I",
+      "description": "Remake of the classic game for PS5.",
       "price": 4999,
       "currency": "INR",
-      "in_stock": true,
-      "images": ["https://example.com/images/spiderman2.jpg"],
-      "tags": ["game", "spiderman", "ps5"]
-    },
-    {
-      "id": 24,
-      "title": "PS5 Charging Station",
-      "description": "Charge two DualSense controllers simultaneously.",
-      "price": 2999,
-      "currency": "INR",
       "in_stock": false,
-      "images": ["https://example.com/images/chargingstation.jpg"],
-      "tags": ["charger", "dual", "ps5"]
+      "images": ["https://example.com/images/lastofus1.jpg"],
+      "tags": ["game", "ps5", "story"]
     },
     {
-      "id": 25,
-      "title": "PS5 Camera",
-      "description": "HD camera for streaming and facial recognition.",
+      "id": 48,
+      "title": "PS5 VR2 Headset",
+      "description": "Immersive VR experience for PlayStation 5.",
+      "price": 45999,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/psvr2.jpg"],
+      "tags": ["vr", "accessory", "ps5"]
+    },
+    {
+      "id": 49,
+      "title": "Ratchet & Clank: Rift Apart",
+      "description": "Fast-paced PS5 exclusive action game.",
       "price": 4599,
       "currency": "INR",
       "in_stock": true,
-      "images": ["https://example.com/images/ps5camera.jpg"],
-      "tags": ["camera", "stream", "accessory"]
+      "images": ["https://example.com/images/ratchetclank.jpg"],
+      "tags": ["game", "exclusive", "ps5"]
+    },
+    {
+      "id": 50,
+      "title": "PS5 Console Cover - Black",
+      "description": "Stylish replacement cover for PS5 console.",
+      "price": 3299,
+      "currency": "INR",
+      "in_stock": true,
+      "images": ["https://example.com/images/ps5cover.jpg"],
+      "tags": ["accessory", "cover", "ps5"]
     }
   ]
 }
