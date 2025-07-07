@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-container h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+}
+
+.announcement-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+}
+.announcement-bar a{
+    font-size: 15px;
+    color: white;
+    margin-left: 5px;
+    font-weight: 400;
+}
+.navbar-row{
+    padding: 20px 150px;
+    border-bottom: lightgray 1px solid;
+}
+
+.input-box input{
+    border: none;
+    position: relative;
+    border-radius: 5px;
+    background: #F5F5F5;
+    padding: 8px;
+}
+.icon-search{
+    position: absolute;
+    right: 8px;
+}
+
+.menu-list{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
+
+.hamburger-container{
+    display: none;
+}
+
+.banner-container{
+    padding: 0px 150px;
+    height: fit-content;
+}
+
+.list-box{
+    border-right: lightgray 1px solid;
+    padding: 0;
+    height: fit-content;
+}
+.catagory-list li{
+    margin: 1.4rem 0rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+}
+
+.banner-section{
+    padding: 15px 0px 0px 15px;
+    max-height: 100%;
+}
+.hero-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+.hero-slider img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+
+.product-slider{
+    padding: 10px 0px 10px 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+
+    
+.flash-sales-section{
+    padding: 0px 0px 0px 135px;
+}
+
+.flash-sale-header{
+    width: calc(100% - 135px);
+    height: 103px;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+  .navbar-row{
+    padding: 10px;
+  }
+  .menu-box {
+    display: none;
+  }
+}
