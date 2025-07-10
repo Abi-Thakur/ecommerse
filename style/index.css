@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --ctaButton: #DB4444;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -100,11 +104,68 @@
 .flash-sale-header{
     width: calc(100% - 135px);
     height: 103px;
-    background-color: red;
 }
 
+.timmer{
+    gap: 30px;
+}
 
+.sec-section h2{
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
 
+.timmer h3{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    
+}
+.collon{
+    font-size: 20px;
+    color: var(--ctaButton);
+    font-weight: 500;
+}
+
+.timmer p{
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.ractangle{
+    height: 26px;
+    width: 15px;
+    background: var(--ctaButton);
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.top-section span{
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    color: var(--ctaButton);
+}
+
+.slider-navigation{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.left-navigation, .right-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: lightgrey;
+}
 
 
 
