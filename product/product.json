@@ -308,5 +308,125 @@
       "images": ["https://example.com/images/ps5cover.jpg"],
       "tags": ["accessory", "cover", "ps5"]
     }
-  ]
+  ],
+  "TodayFlashSales": [
+  {
+    "id": 101,
+    "title": "iPhone 14 Pro",
+    "description": "Apple iPhone 14 Pro with A16 Bionic chip and 128GB storage.",
+    "price": 94999,
+    "compare_price": 119999,
+    "currency": "INR",
+    "in_stock": true,
+    "images": ["/assets/Product images/Iphone image 1.png"],
+    "tags": ["apple", "smartphone", "ios"],
+    "review_count": 4521,
+    "rating": 4.8
+  },
+  {
+    "id": 102,
+    "title": "Nothing Phone (2)",
+    "description": "Unique design with Glyph interface and SD 8+ Gen 1.",
+    "price": 35999,
+    "compare_price": 39999,
+    "currency": "INR",
+    "in_stock": true,
+    "images": ["/assets/Product images/Nothing.png"],
+    "tags": ["nothing", "design", "android"],
+    "review_count": 2876,
+    "rating": 4.6
+  },
+  {
+    "id": 103,
+    "title": "Asus Vivobook 16X",
+    "description": "Mid-range productivity laptop with Ryzen 7.",
+    "price": 49999,
+    "compare_price": 59999,
+    "currency": "INR",
+    "in_stock": true,
+    "images": ["/assets/Product images/Asus Vivo Book.png"],
+    "tags": ["asus", "work", "budget"],
+    "review_count": 1742,
+    "rating": 4.4
+  },
+  {
+    "id": 104,
+    "title": "HP Omen 16",
+    "description": "High-end gaming laptop with RTX 4070.",
+    "price": 129999,
+    "compare_price": 144999,
+    "currency": "INR",
+    "in_stock": true,
+    "images": ["/assets/Product images/HP OMEN.png"],
+    "tags": ["hp", "gaming", "premium"],
+    "review_count": 2365,
+    "rating": 4.7
+  },
+  {
+    "id": 105,
+    "title": "Sony XB13",
+    "description": "Extra bass mini speaker with IP67 rating.",
+    "price": 3199,
+    "compare_price": 4490,
+    "currency": "INR",
+    "in_stock": true,
+    "images": ["/assets/Product images/Sony XB13.png"],
+    "tags": ["sony", "mini", "bass"],
+    "review_count": 3210,
+    "rating": 4.5
+  },
+  {
+    "id": 106,
+    "title": "boAt Stone 180",
+    "description": "Compact and rugged portable speaker.",
+    "price": 1099,
+    "compare_price": 1499,
+    "currency": "INR",
+    "in_stock": true,
+    "images": ["/assets/Product images/boAt_Stone_1.png"],
+    "tags": ["boat", "portable", "rugged"],
+    "review_count": 1893,
+    "rating": 4.3
+  },
+  {
+    "id": 107,
+    "title": "Chess Set",
+    "description": "Wooden chess board with polished pieces.",
+    "price": 999,
+    "compare_price": 1299,
+    "currency": "INR",
+    "in_stock": true,
+    "images": ["/assets/Product images/Chess_set 1.png"],
+    "tags": ["chess", "strategy", "classic"],
+    "review_count": 1580,
+    "rating": 4.6
+  },
+  {
+    "id": 108,
+    "title": "Nerf Elite 2.0",
+    "description": "Foam dart blaster with 12-dart capacity.",
+    "price": 1999,
+    "compare_price": 2599,
+    "currency": "INR",
+    "in_stock": true,
+    "images": ["/assets/Product images/Nerf_Elite_1.png"],
+    "tags": ["nerf", "blaster", "kids"],
+    "review_count": 2240,
+    "rating": 4.4
+  },
+  {
+    "id": 110,
+    "title": "PS5 Console Cover - Black",
+    "description": "Stylish replacement cover for PS5 console.",
+    "price": 2499,
+    "compare_price": 2999,
+    "currency": "INR",
+    "in_stock": true,
+    "images": ["/assets/Product images/PS5 Console Cover - Black.png"],
+    "tags": ["accessory", "cover", "ps5"],
+    "review_count": 970,
+    "rating": 4.2
+  }
+]
+
 }

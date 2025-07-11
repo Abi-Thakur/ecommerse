@@ -48,9 +48,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 hamburger-container d-flex align-items-center justify-content-center">
+                <!-- <div class="col-6 hamburger-container d-flex align-items-center justify-content-center">
                     <i class="fa-solid fa-bars" style="color: #050505;"></i>
-                </div>
+                </div> -->
             </div>
         </div>
     </header>
@@ -86,7 +86,7 @@
                     <div class="ractangle"></div>
                     <span>Today</span>
                 </div>
-                <div class="sec-section d-flex align-items-end justify-content-start gap-5 w-50">
+                <div class="sec-section d-flex align-items-end justify-content-start gap-5 w-75">
                     <h2>Flash Sales</h2>
                     <!-- timmer-section -->
                     <div class="timmer d-flex align-items-center justify-content-between">
@@ -112,10 +112,10 @@
                     </div>
                     <!-- timmer-section-end -->
                      <div class="slider-navigation d-flex align-items-center justify-content-center gap-2">
-                        <div class="left-navigation">
+                        <div class="left-navigation" id="left-navigation">
                             <i class="fa-solid fa-arrow-left" style="color: #050505;"></i>
                         </div>
-                        <div class="right-navigation">
+                        <div class="right-navigation" id="right-navigation">
                             <i class="fa-solid fa-arrow-right" style="color: #000000;"></i>
                         </div>
                      </div>
@@ -123,13 +123,13 @@
             </div>
             <!-- flash-sales-header-end -->
              <!-- Slider-start -->
-            <div class="product-slider">
-                
+            <div class="product-slider" id="sale-slider">
+                <!-- product card fetched in fetch.js -->
             </div>
-        </div>
     </main>
    
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 <script src="fetch.js"></script>
+<script src="slider.js"></script>
 </html>
