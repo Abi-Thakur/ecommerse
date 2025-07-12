@@ -88,6 +88,7 @@
    
 .flash-sales-section{
     padding: 0px 0px 0px 135px;
+    margin-top: 30px;
 }
 
 .flash-sale-header{
@@ -159,7 +160,7 @@
 
 /* flash-sales-slider-style */
 .product-slider{
-    padding: 30px 0px;
+    padding: 30px 0px 0px 0px;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -170,6 +171,32 @@
 
 #sale-slider::-webkit-scrollbar {
   display: none; /* optional: hide scrollbar */
+}
+
+.view-all-section{
+    height: 3.5rem;
+    width: calc(100% - 135px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px 60px 0px;
+    border-bottom: 1px lightgray solid;
+}
+
+.view-all-section button{
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: var(--ctaButton);
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
+
+
+.catagory-section{
+    padding: 0px 150px;
+    margin-top: 60px;
 }
 
 

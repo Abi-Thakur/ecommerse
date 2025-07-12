@@ -5,7 +5,7 @@ function renderDiscount (element){
   return discountPercent
 }
 
-
+// card-redering
 function rendercard (data){
   const slider = document.getElementById("sale-slider");
   data.forEach(element => {
@@ -14,19 +14,23 @@ function rendercard (data){
     card.classList.add("card");
     // console.log(element);
 
+    const addTOCart = document.createElement("button");
+    addTOCart.classList.add("add-to-cart");
+    addTOCart.textContent = `Add to cart`
+
     const productImage = document.createElement("img");
     productImage.src = `${element.images}`;
 
     const imgBox = document.createElement("div");
     imgBox.classList.add("card-img-box");
-    imgBox.appendChild(productImage)
+    imgBox.appendChild(productImage);
+    imgBox.appendChild(addTOCart);
 
     const productTitle = document.createElement("h2");
     productTitle.innerText = `${element.title}`;
     
-
     const productPrice = document.createElement("p");
-    productPrice.classList.add("price")
+    productPrice.classList.add("price");
     productPrice.innerText = `Rs ${element.price}`;
     // console.log(element.desciption)
 
@@ -50,28 +54,28 @@ function rendercard (data){
     discountTag.classList.add("discount-tag");
     discountTag.textContent = `-${renderDiscount(element)}%`
 
-
-
     card.appendChild(imgBox);
     card.appendChild(contentBox);
     card.appendChild(discountTag);
-
-
+    
     slider.appendChild(card);
-
   });
 
 }
 
+function catagoryRender (data){
+ for(let catagory in data){
+  console.log(catagory)
+ }
+ 
 
-
-
-
+}
 
 fetch("/product/product.json")
   .then(res => res.json())
   .then(data => {
     rendercard(data.TodayFlashSales);
+    catagoryRender(data)
   })
   .catch(error => {
     console.error("Error fetching JSON:", error);
