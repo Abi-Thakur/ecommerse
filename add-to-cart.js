@@ -13,18 +13,17 @@ function productCount () {
 function renderCount() {
     const addToCartBox = document.getElementById("add-to-cart-box");
 
-    // Remove existing count box if any
     const existingCount = addToCartBox.querySelector(".count-box");
     if (existingCount) {
-        existingCount.remove();
+        existingCount.textContent  = productCount();
     }
 
-    // Create and append new count box
+    else{
     const countContainer = document.createElement("div");
     countContainer.classList.add("count-box");
     countContainer.textContent = productCount();
-
     addToCartBox.appendChild(countContainer);
+    }   
 }
 
 
@@ -35,3 +34,7 @@ export function addCart (element){
     console.log(getProductCart());
     renderCount()
 }
+
+
+renderCount()
+
