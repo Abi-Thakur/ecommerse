@@ -1,3 +1,6 @@
+import {addCart} from './add-to-cart.js'
+
+
 function renderDiscount (element){
   const sellingPrice = element.price;
   const originalPrice = element.compare_price;
@@ -12,11 +15,16 @@ function rendercard (data){
     // creating-card
     const card = document.createElement("div"); 
     card.classList.add("card");
-    // console.log(element);
+  
 
     const addTOCart = document.createElement("button");
     addTOCart.classList.add("add-to-cart");
-    addTOCart.textContent = `Add to cart`
+    addTOCart.textContent = `Add to cart`;
+    addTOCart.id = `add-t0-card-${element.id}`;
+
+    addTOCart.onclick = () => addCart(element)
+    
+    
 
     const productImage = document.createElement("img");
     productImage.src = `${element.images}`;
@@ -63,19 +71,19 @@ function rendercard (data){
 
 }
 
-function catagoryRender (data){
- for(let catagory in data){
-  console.log(catagory)
- }
+// function catagoryRender (data){
+//  for(let catagory in data){
+//   console.log(catagory)
+//  }
  
 
-}
+// }
 
 fetch("/product/product.json")
   .then(res => res.json())
   .then(data => {
     rendercard(data.TodayFlashSales);
-    catagoryRender(data)
+    // catagoryRender(data)
   })
   .catch(error => {
     console.error("Error fetching JSON:", error);
