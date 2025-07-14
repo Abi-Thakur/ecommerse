@@ -1,0 +1,19 @@
+#navbar-row {
+  transition: transform 0.5s linear;
+}
+
+.navbar-show {
+    position: fixed;
+    top: 0;
+    transform: translateY(0);
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.734);
+    color: white;
+
+}
+
+.navbar-hide {
+  transform: translateY(-100%);
+  
+}
