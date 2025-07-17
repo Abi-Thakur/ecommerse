@@ -1,8 +1,5 @@
-#navbar-row {
-  transition: transform 0.5s linear;
-}
 
-.navbar-show {
+.header-show {
     position: fixed;
     top: 0;
     transform: translateY(0);
@@ -13,7 +10,3 @@
 
 }
 
-.navbar-hide {
-  transform: translateY(-100%);
-  
-}

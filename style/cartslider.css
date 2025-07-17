@@ -1,0 +1,47 @@
+
+
+.cart-slider{
+    height: calc(100vh - 126px);
+    width: 35%;
+    position: fixed;
+    top: 126px;
+    right: 0;
+    padding: 20px;
+    z-index: 4;
+    background-color: #ffffff;
+    /* display: none */
+}
+
+.cart-slider .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-slider h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+}
+
+
+.cart-slider .product-box{
+    
+    padding: 10px 0;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+
+.cart-product-image{
+    width: 100px;
+}
+
+
+.product-box .product-title{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
