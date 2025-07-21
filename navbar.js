@@ -5,7 +5,7 @@ window.addEventListener("scroll", function () {
     const icons = document.getElementsByClassName("icon");
     const currentScroll = window.scrollY;
 
-    if(currentScroll > 50){
+    if(currentScroll > 5){
         header.classList.add("header-show");
         for (let icon of icons){
           icon.style.color = "#ffffff";

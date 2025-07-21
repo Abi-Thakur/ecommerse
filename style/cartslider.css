@@ -9,7 +9,7 @@
     padding: 20px;
     z-index: 4;
     background-color: #ffffff;
-    /* display: none */
+    display: none
 }
 
 .cart-slider .heading{
@@ -44,4 +44,21 @@
 .product-box .product-title{
     font-size: 15px;
     font-family: "Roboto", sans-serif;
+}
+
+.quantity-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+
+}
+
+.quantity-container button{
+    padding: 5px;
+}
+
+
+.quantity-container input{
+    width: 50px;
 }

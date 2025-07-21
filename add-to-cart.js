@@ -33,13 +33,14 @@ function addInput(){
     const inputbar = document.createElement("input");
     inputbar.type = "number"
     inputbar.value = 1;
+    inputbar.classList.add("product-quantity")
     return inputbar 
 }
 
 
-function addQuantityInput (){
+function addQuantityInput (product){
     const inputContainer = document.createElement("div");
-    inputContainer.classList.add("input-container");
+    inputContainer.classList.add("quantity-container");
 
     const inputbar = addInput()
     const subtract  = document.createElement("button");
@@ -52,8 +53,8 @@ function addQuantityInput (){
 
      const addition = document.createElement("button");
      addition.textContent = "+"
-    subtract.classList.add("btn");
-    subtract.addEventListener("click", () => {
+    addition.classList.add("btn");
+    addition.addEventListener("click", () => {
         const value = parseInt(inputbar.value)
         inputbar.value++
     });
@@ -61,8 +62,19 @@ function addQuantityInput (){
     inputContainer.appendChild(subtract);
     inputContainer.appendChild(inputbar);
     inputContainer.appendChild(addition)
-    return inputContainer
 
+    return inputContainer
+}
+
+
+function valueAmount (product){
+  const valueContainer = document.createElement("div");
+  const value = document.createElement("h3");
+  const inputValue = document.getElementsByClassName("product-quantity");
+  value.textContent = `${product.price * inputValue} `;
+  value.classList.add("product-value");
+  valueContainer.appendChild(value);
+  return valueContainer;
 }
 
 function addProduct() {
@@ -79,12 +91,14 @@ function addProduct() {
 
     const productImage = addImage(product);
     const productInfo = addProductInfo(product);
-    const productQuantity = addQuantityInput();
+    const productQuantity = addQuantityInput(product);
+    const totalValue = valueAmount(product)
 
 
     productBox.appendChild(productImage);
     productBox.appendChild(productInfo);
     productBox.appendChild(productQuantity);
+    productBox.appendChild(totalValue);
     
     productContainer.appendChild(productBox);
   });
@@ -121,8 +135,6 @@ export function addCart(element) {
 renderCount();
 addProduct(); // so cart is shown when page loads
 
-
-
 // hide cart right sidebae
 
 const hideBtn = document.getElementById('slider-hide')
@@ -133,11 +145,7 @@ hideBtn.addEventListener("click", function hideSidebar(){
   
 });
 
-
-
-
 const showBtn  = document.getElementById("add-to-cart-box");
-
 
 showBtn.addEventListener("click", function(){
   const productContainer = document.getElementById("slider-wrapper");
